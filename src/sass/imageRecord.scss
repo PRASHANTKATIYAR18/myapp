@@ -1,0 +1,27 @@
+@import "variables.scss";
+@import "heading.scss";
+.imageRecord{
+    .card-img-block {
+        width: 91%;
+        margin: 0 auto;
+        position: relative;
+        top:-30px;
+    }
+    div .profileCard{
+        background-color:#FBFDFF ;
+    }
+    table{ 
+        tr{ 
+          color:$maincolor;
+          font-size:14px;
+         
+          }
+        //   tbody tr:hover {
+        //   background-color:rgb(154, 161, 161);
+        //   color:white;
+        //   }
+    }
+}
+
+
+ 

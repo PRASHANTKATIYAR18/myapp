@@ -1,0 +1,45 @@
+@import "variables.scss";
+@import "heading.scss";
+.tableRecord{
+    //  .cardtop{
+    //     height:70px;
+    //     border-radius: 3px;
+    //     }
+        
+    //  .card2 {
+    //         width: 95%;
+    //         margin: 0 auto;
+    //         position: relative;
+    //         top: 3px;   
+    //     }
+    table{
+        thead 
+        {
+          border-bottom: 2px solid #102E5D;
+        
+        }
+        td:first-child { 
+          padding-left: 40px; 
+        }
+      
+        thead tr th{
+          font-weight:500px;
+          font-size:14px;
+        }
+        tr{ 
+          color:$maincolor;
+          font-size:14px;
+         
+          }
+          tr  h2{
+            font-weight:500px;
+            font-size:15px;
+            color: #102E5D;
+          }  
+          tbody tr:hover {
+          background-color:darkcyan;
+          color:white;
+          }
+        }
+
+}
